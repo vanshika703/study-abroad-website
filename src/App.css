@@ -8,13 +8,12 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 .home {
   background-image: url("https://www.hdfcsales.com/blog/wp-content/uploads/2019/08/hdfc-study-abroad-loans-for-bright-future.jpg");
 
   background-color: #000; /* Used if the image is unavailable */
   height: 90vh; /* You must set a specified height */
-  width: 100vw;
+  width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -28,7 +27,7 @@
   top: 0;
   left: 0;
   height: 90vh;
-  width: 100vw;
+  width: 100%;
   background: #000;
   z-index: 10;
   opacity: 0.6;

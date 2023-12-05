@@ -54,7 +54,7 @@ const services = [
 
 const OurServices = () => {
   return (
-    <div className="mx-auto my-10">
+    <div className="mx-auto my-16">
       <p className="text-center text-2xl text-[#1e3c5a] font-semibold">
         <span className=" border-l-4 border-[#FDBF00] pl-4">Our Services</span>
       </p>
