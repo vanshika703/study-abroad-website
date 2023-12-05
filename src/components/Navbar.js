@@ -13,7 +13,7 @@ function NavbarComponent() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button className=" bg-[#FDBF00] border-2 border-white rounded-md">Get started</Button>
+        <Button className=" bg-[#FDBF00] border-2 border-white rounded-md">Contact us</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
