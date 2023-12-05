@@ -1,23 +1,22 @@
+"use client";
 
-'use client';
+import { Card } from "flowbite-react";
 
-import { Card } from 'flowbite-react';
-
-function CardComponenet() {
+function CardComponenet({ img, title, description, link }) {
   return (
-    <Card
-      className="max-w-sm"
-      imgAlt="Meaningful alt text for an image that is not purely decorative"
-      imgSrc="/images/blog/image-1.jpg"
-    >
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Noteworthy technology acquisitions 2021
+    <Card className="max-w-xs border-[1px] border-gray-100 shadow-sm m-6 cursor-pointer transition ease-in-out duration-200 hover:shadow-md ">
+      <img
+        src={img}
+        alt=""
+        className="h-28 w-28 object-cover mx-auto rounded-full"
+      />
+      <h5 className=" text-sm font-semibold tracking-tight text-[#1e3c5a] dark:text-white text-center">
+        {title}
       </h5>
-      <p className="font-normal text-gray-700 dark:text-gray-400">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-      </p>
+      <p className="text-xs text-gray-500 dark:text-gray-400">{description}</p>
+      <button className="text-xs text-[#FDBF00] font-semibold">know more &gt;</button>
     </Card>
   );
 }
 
-export default CardComponenet
+export default CardComponenet;

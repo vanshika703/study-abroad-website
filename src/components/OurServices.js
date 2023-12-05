@@ -1,4 +1,3 @@
-import { Card } from "flowbite-react";
 import React from "react";
 import CardComponenet from "./Card";
 import service1 from "../img/service1.svg";
@@ -55,10 +54,17 @@ const services = [
 
 const OurServices = () => {
   return (
-    <div>
-      <p className="text-center">OurServices</p>
-      <div className="flex flex-wrap">
-        <CardComponenet img={img} title={title} description={description} link={link}/>
+    <div className="mx-auto my-10">
+      <p className="text-center text-2xl text-[#1e3c5a] font-semibold">Our Services</p>
+      <div className="flex flex-wrap justify-center items-start">
+        {services?.map((service) => (
+          <CardComponenet
+            img={service.img}
+            title={service.title}
+            description={service.description}
+            link={service.link}
+          />
+        ))}
       </div>
     </div>
   );

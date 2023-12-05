@@ -5,7 +5,7 @@ import logo from "../img/graduation-hat.png";
 
 function NavbarComponent() {
   return (
-    <Navbar fluid className="bg-[#152e47] text-white">
+    <Navbar fluid className="bg-[#1e3c5a] text-white">
       <Navbar.Brand href="https://flowbite-react.com">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
