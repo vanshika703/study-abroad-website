@@ -44,7 +44,7 @@ function ReactSimplyCarouselExample() {
       <ReactSimplyCarousel
         activeSlideIndex={activeSlideIndex}
         onRequestChange={setActiveSlideIndex}
-        itemsToShow={2}
+        itemsToShow={1}
         itemsToScroll={1}
         forwardBtnProps={{
           style: {
@@ -80,7 +80,7 @@ function ReactSimplyCarouselExample() {
         }}
         responsiveProps={[
           {
-            itemsToShow: 4,
+            itemsToShow: 5,
             itemsToScroll: 1,
             minWidth: 768,
           },

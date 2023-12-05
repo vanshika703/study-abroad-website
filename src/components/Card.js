@@ -4,7 +4,7 @@ import { Card } from "flowbite-react";
 
 function CardComponenet({ img, title, description, link }) {
   return (
-    <Card className="max-w-xs border-[1px] border-gray-100 shadow-sm m-6 cursor-pointer transition ease-in-out duration-200 hover:shadow-md ">
+    <Card className="max-w-xs border-[1px] border-gray-100 shadow-sm m-10 cursor-pointer transition ease-in-out duration-200 hover:shadow-md ">
       <img
         src={img}
         alt=""
