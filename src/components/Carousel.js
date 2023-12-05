@@ -49,7 +49,7 @@ function ReactSimplyCarouselExample() {
         forwardBtnProps={{
           style: {
             alignSelf: "center",
-            background: "black",
+            background: "#FDBF00",
             border: "none",
             borderRadius: "50%",
             color: "white",
@@ -63,10 +63,9 @@ function ReactSimplyCarouselExample() {
           children: <span>{`>`}</span>,
         }}
         backwardBtnProps={{
-          //here you can also pass className, or any other button element attributes
           style: {
             alignSelf: "center",
-            background: "black",
+            background: "#FDBF00",
             border: "none",
             borderRadius: "50%",
             color: "white",
@@ -90,14 +89,20 @@ function ReactSimplyCarouselExample() {
         easing="linear"
       >
         {locations.map((location) => (
-          <div className="w-60 h-96 p-2 rounded-md hover:pt-0 transition-all ease-in duration-200" key={location}>
+          <div
+            className="w-60 h-96 p-2 rounded-md hover:pt-0 transition-all ease-in duration-200 cursor-pointer"
+            key={location}
+          >
             <img
               src={location.img}
               alt=""
               className="w-60 h-80 object-cover rounded-md "
             />
-            <div>
-              <p>{location.location}</p>
+            <div className="flex justify-between items-center mt-2">
+              <p className="text-[#1e3c5a] text-sm font-medium">
+                {location.location}
+              </p>
+              <span className="text-[#FDBF00]">>></span>
             </div>
           </div>
         ))}
