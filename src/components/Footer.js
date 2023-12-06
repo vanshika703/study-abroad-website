@@ -12,7 +12,7 @@ import logo from "../img/graduation-hat.png";
 
 function FooterComponentCustom() {
   return (
-    <Footer className="w-full bg-[#1e3c5a] text-white rounded-none px-28" container>
+    <Footer className="w-full bg-[#1e3c5a] text-white rounded-none sm:px-28" container>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="flex">
