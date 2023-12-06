@@ -89,7 +89,7 @@ function FooterComponentCustom() {
           </div>
         </div>
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Flowbite™" year={2022} className="text-xs"/>
+          <Footer.Copyright href="#" by="EduFord" year={2023} className="text-xs"/>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
             <Footer.Icon href="#" icon={BsInstagram} />
